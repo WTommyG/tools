@@ -3,7 +3,7 @@
 <?php
 #Usage:
 # kubectl --context YOUR_CONTEXT exec --stdin --tty POD_NAME -n NAMESPACE -- cat /proc/net/tcp | ./parse.php
-
+sleep(1);
 $states = array(
   "",
   "ESTABLISHED",
